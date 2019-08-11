@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-MAINTAINER yasudanaoya
+LABEL maintainer="yasudanoya"
 
 # https://wiki.alpinelinux.org/wiki/Setting_the_timezone
 
