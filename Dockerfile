@@ -9,9 +9,6 @@ RUN apk update && \
   cp /usr/share/zoneinfo/Japan /etc/localtime && \
   apk del tzdata
 
-RUN apk add zsh
-RUN apk add vim
-RUN apk add git
-RUN apk add docker
+RUN apk add zsh vim git docker
 
-CMD ["/bin/zsh"]
+CMD /bin/zsh
