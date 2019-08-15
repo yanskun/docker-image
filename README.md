@@ -9,3 +9,13 @@
 ```
 docker run -it --rm -v $(pwd):/app
 ```
+
+# docker-compose
+
+## run command
+
+```
+docker-compose build
+docker-compose up -d
+docker-compose exec yasuda zsh
+```
