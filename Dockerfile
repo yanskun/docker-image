@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-LABEL maintainer="yasudanoya"
+LABEL maintainer="yasudanaoya"
 
 ENV mydir /app
 
