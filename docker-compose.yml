@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   yasuda:
-    build: .
+    image: yasudanaoya/initial
     volumes:
       - .:/app
     tty: true
