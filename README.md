@@ -2,29 +2,27 @@
 
 ## docker hub
 
-<https://hub.docker.com/r/yasudanaoya/initial>
-
-## docker
-
-### run command
-
-```sh
-docker run -it --rm -v $(pwd):/app
-```
+- <https://hub.docker.com/r/yasudanaoya/initial>
 
 ## docker-compose
 
 ### run command
 
 ```sh
-# only first time
-docker-compose build
-
 docker-compose up -d
 docker-compose exec yasuda zsh
 ```
 
-## 使い方
+## usage example
 
-DockerHub に image を push しているので、  
-docker-compose.yml さえあれば動きます。
+- <https://github.com/yasudanaoya/docker-image/wiki/%E7%AD%86%E8%80%85%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9>
+
+---
+
+## image build
+
+### run command
+
+```sh
+docker run -it --rm -v $(pwd):/app
+```
