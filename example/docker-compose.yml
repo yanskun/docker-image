@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  yasuda:
+    image: yasudanaoya/initial
+    volumes:
+      - ./projects:/app/projects
+    tty: true
+    working_dir: /app/projects  
